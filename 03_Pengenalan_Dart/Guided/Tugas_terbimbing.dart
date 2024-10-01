@@ -38,7 +38,7 @@
 //   }
 // }
 
-// • Switch-Case Statement
+// // • Switch-Case Statement
 // void main() {
 //  var day = 3; // Misalkan 1 = Senin, 2 = Selasa, dst.
 //  switch (day) {
@@ -144,9 +144,9 @@
 
 
 // Menambahkan Parameter
-// void greet(String name, int age) {
-//  print('Hello $name, you are $age years old.');
-// }
-// void main() {
-//  greet('Alice', 25);
-// }
+void greet(String name, int age) {
+ print('Hello $name, you are $age years old.');
+}
+void main() {
+ greet('Alice', 25);
+}
