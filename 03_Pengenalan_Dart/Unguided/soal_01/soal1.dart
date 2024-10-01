@@ -1,4 +1,4 @@
-// tugas 1 
+// tugas 1
 
 // Buatlah sebuah fungsi dalam Dart yang menerima sebuah nilai dari user, lalu melakukan percabangan untuk memberikan output berdasarkan kondisi berikut:
 // Deskripsi :
@@ -11,19 +11,20 @@
 // kosong.
 
 import 'dart:io';
-String CekNilai (int nilai){
-  if (nilai > 70){
-  return "Nilai A";
-  } else if (nilai> 40 && nilai <= 70){
-  return "Nilai B";
-  } else if (nilai > 0 && nilai <= 40){
-    return "Nilai C";
+
+String CekNilai(int nilai) {
+  if (nilai > 70) {
+    return "Merupakan Nilai A";
+  } else if (nilai > 40 && nilai <= 70) {
+    return "Merupakan Nilai B";
+  } else if (nilai > 0 && nilai <= 40) {
+    return "Merupakan Nilai C";
   } else {
     return "Nilai kosong";
   }
 }
 
-void main (){
+void main() {
   print("masukan Nilai anda : ");
   String? input = stdin.readLineSync();
   int? nilai = int.tryParse(input!);
