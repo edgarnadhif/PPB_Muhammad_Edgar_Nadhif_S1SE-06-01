@@ -27,6 +27,7 @@
 // }
 
 // B. Statement Control
+// IF-ELSE Statement 
 // void main() {
 //   var openHours = 8;
 //   var closedHours = 21;
@@ -90,7 +91,7 @@
 
 // D. List
 
-// • Fixed Length List
+// // • Fixed Length List
 // void main() {
 //   List<int> fixedList = List.filled(3, 0);
 
@@ -143,10 +144,10 @@
 // }
 
 
-// Menambahkan Parameter
-void greet(String name, int age) {
- print('Hello $name, you are $age years old.');
-}
-void main() {
- greet('Alice', 25);
-}
+// // Menambahkan Parameter
+// void greet(String name, int age) {
+//  print('Hello $name, you are $age years old.');
+// }
+// void main() {
+//  greet('Alice', 25);
+// }
